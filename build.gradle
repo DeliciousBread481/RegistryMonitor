@@ -1,5 +1,6 @@
 plugins {  
     id 'java-library'  
+    id 'net.neoforged.moddev' version '2.0.115'  
 }  
   
 group = 'deliciousbread481'  
@@ -7,16 +8,13 @@ version = '1.0.0'
   
 java {  
     toolchain {  
-        languageVersion = JavaLanguageVersion.of(java_version)  
+        languageVersion = JavaLanguageVersion.of(21)  
     }  
 }  
   
 neoForge {  
-    neoFormVersion = "${neoform_version}"  
-    accessTransformers {  
-        from('src/main/resources/META-INF/accesstransformer.cfg')  
-    }  
-  
+    neoFormVersion = "20240808.144430"  
+      
     runs {  
         client {  
             client()  
@@ -34,7 +32,7 @@ neoForge {
 }  
   
 dependencies {  
-    implementation("net.neoforged:neoforge:${neoforge_version}")  
+    implementation("net.neoforged:neoforge:21.1.228")  
 }  
   
 tasks.withType(JavaCompile).configureEach {  
