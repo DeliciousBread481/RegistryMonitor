@@ -13,7 +13,7 @@ java {
 }  
   
 neoForge {  
-    neoFormVersion = "20240808.144430"  
+    version = "${neoforge_version}"  
       
     runs {  
         client {  
@@ -32,7 +32,7 @@ neoForge {
 }  
   
 dependencies {  
-    implementation("net.neoforged:neoforge:21.1.228")  
+    implementation("net.neoforged:neoforge:${neoforge_version}")  
 }  
   
 tasks.withType(JavaCompile).configureEach {  
