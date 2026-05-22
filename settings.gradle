@@ -10,7 +10,6 @@ plugins {
 }  
   
 dependencyResolutionManagement {  
-    repositoriesMode = RepositoriesMode.FAIL_ON_PROJECT_REPOS  
     repositories {  
         mavenCentral()  
         maven { url = 'https://maven.neoforged.net/releases' }  
