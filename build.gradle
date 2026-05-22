@@ -1,6 +1,5 @@
 plugins {  
     id 'java-library'  
-    id 'net.neoforged.moddev' version "${moddevgradle_plugin_version}"  
 }  
   
 group = 'deliciousbread481'  
