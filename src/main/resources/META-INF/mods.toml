@@ -4,7 +4,7 @@ license="LGPL v2.1"
   
 [[mods]]  
     modId="registrymonitor"  
-    version="1.0.0"  
+    version="1.0.1"  
     displayName="Registry Monitor"  
     authors="DeliciousBread481"  
     description='''  
